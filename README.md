@@ -1,6 +1,19 @@
 # Neo Brutalism for Orca
 
+![Neo Brutalism theme showcase](assets/cover.png)
+
 High-contrast Neo Brutalism and pop-art color themes for [Orca](https://github.com/stablyai/orca): crisp ink borders, warm paper and deep ink canvases, a bold signal-yellow frame variant, and five vibrant signal accents (**Yellow**, **Mint**, **Sky**, **Coral**, **Lavender**) with matching editor syntax highlighting and terminal ANSI palettes.
+
+## Install
+
+- [Open in Orca](https://orca.dev/plugins/feifeifeimoon.neo-brutalism?catalog=community)
+- Or install directly via CLI:
+
+```sh
+orca plugin install feifeifeimoon/orca-neo-brutalism
+```
+
+Then open **Settings → Appearance** to pick your preferred Light, Dark, Editor, and Terminal theme.
 
 ## Included Themes
 
@@ -25,13 +38,11 @@ High-contrast Neo Brutalism and pop-art color themes for [Orca](https://github.c
 - **Brutal Light** (Light)
 - **Brutal Dark Yellow / Mint / Sky / Coral / Lavender** (Dark)
 
-## Local Preview
+## Local Development
 
 ```sh
 orca plugin dev load .
 ```
-
-Then open **Settings → Appearance** to pick your preferred Light, Dark, Editor, and Terminal theme.
 
 ## License
 
