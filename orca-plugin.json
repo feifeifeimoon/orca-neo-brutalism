@@ -1,0 +1,115 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
+  "manifestVersion": 2,
+  "id": "neo-brutalism",
+  "name": "Neo Brutalism",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "High-contrast Neo Brutalism and pop-art color themes for Orca: crisp ink borders, warm paper and dark ink canvases, a signal-yellow frame variant, and five vibrant signal accents (Yellow, Mint, Sky, Coral, Lavender) with matching syntax and terminal palettes.",
+  "author": {
+    "name": "feifeifeimoon",
+    "url": "https://github.com/feifeifeimoon"
+  },
+  "repository": "https://github.com/feifeifeimoon/orca-neo-brutalism",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "cover": {
+    "path": "assets/cover.png",
+    "alt": "Neo Brutalism theme showcase featuring Paper, Signal Frame, and Dark variants with Yellow, Mint, Sky, Coral, and Lavender signal colors"
+  },
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "neo-brutalism-paper-yellow",
+        "title": "Brutal Yellow",
+        "path": "themes/neo-brutalism-paper-yellow.json"
+      },
+      {
+        "id": "neo-brutalism-signal-yellow",
+        "title": "Brutal Yellow Frame",
+        "path": "themes/neo-brutalism-signal-yellow.json"
+      },
+      {
+        "id": "neo-brutalism-dark-yellow",
+        "title": "Brutal Dark Yellow",
+        "path": "themes/neo-brutalism-dark-yellow.json"
+      },
+      {
+        "id": "neo-brutalism-paper-mint",
+        "title": "Brutal Mint",
+        "path": "themes/neo-brutalism-paper-mint.json"
+      },
+      {
+        "id": "neo-brutalism-dark-mint",
+        "title": "Brutal Dark Mint",
+        "path": "themes/neo-brutalism-dark-mint.json"
+      },
+      {
+        "id": "neo-brutalism-paper-sky",
+        "title": "Brutal Sky",
+        "path": "themes/neo-brutalism-paper-sky.json"
+      },
+      {
+        "id": "neo-brutalism-dark-sky",
+        "title": "Brutal Dark Sky",
+        "path": "themes/neo-brutalism-dark-sky.json"
+      },
+      {
+        "id": "neo-brutalism-paper-coral",
+        "title": "Brutal Coral",
+        "path": "themes/neo-brutalism-paper-coral.json"
+      },
+      {
+        "id": "neo-brutalism-dark-coral",
+        "title": "Brutal Dark Coral",
+        "path": "themes/neo-brutalism-dark-coral.json"
+      },
+      {
+        "id": "neo-brutalism-paper-lavender",
+        "title": "Brutal Lavender",
+        "path": "themes/neo-brutalism-paper-lavender.json"
+      },
+      {
+        "id": "neo-brutalism-dark-lavender",
+        "title": "Brutal Dark Lavender",
+        "path": "themes/neo-brutalism-dark-lavender.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "neo-brutalism-paper",
+        "title": "Brutal Light",
+        "path": "terminal/neo-brutalism-paper.json"
+      },
+      {
+        "id": "neo-brutalism-dark-yellow",
+        "title": "Brutal Dark Yellow",
+        "path": "terminal/neo-brutalism-dark-yellow.json"
+      },
+      {
+        "id": "neo-brutalism-dark-mint",
+        "title": "Brutal Dark Mint",
+        "path": "terminal/neo-brutalism-dark-mint.json"
+      },
+      {
+        "id": "neo-brutalism-dark-sky",
+        "title": "Brutal Dark Sky",
+        "path": "terminal/neo-brutalism-dark-sky.json"
+      },
+      {
+        "id": "neo-brutalism-dark-coral",
+        "title": "Brutal Dark Coral",
+        "path": "terminal/neo-brutalism-dark-coral.json"
+      },
+      {
+        "id": "neo-brutalism-dark-lavender",
+        "title": "Brutal Dark Lavender",
+        "path": "terminal/neo-brutalism-dark-lavender.json"
+      }
+    ]
+  },
+  "capabilities": []
+}
